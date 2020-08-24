@@ -18,7 +18,7 @@ let student = [
   {studentName: "Thabo", studentSurname: "Maseko", Age: 15, Grade: "10D"}
 ];
 
-//Create Function to count 
+//Create Function to count students less than 10 years of age
 function countStudents(student){
   let counter = 0;
 for (let i = 0; i < student.length; i++) {
@@ -27,5 +27,5 @@ for (let i = 0; i < student.length; i++) {
 return counter;
 }
 
-
+//log results
 console.log(countStudents(student));
